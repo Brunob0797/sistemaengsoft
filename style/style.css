@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0 auto;
+	background-image:url(images/bg.jpg);
+	background-repeat:no-repeat;
+	}
+input[type="text"], input[type="password"]{
+	width: 300px;
+	height: 45px;
+	font-size: 16px;
+	margin-bottom:20px;
+	background-color:#fff;
+	padding-left: 30px;
+	}
+	
+.geral{
+	width:500px;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto;
+	background-color:rgba(62, 62, 62, 0.5);
+	margin-top:80px;
+	border-radius: 6px;
+	}
+	
+.geral img{
+	width:130px;
+	height:130px;
+	margin-top:-65px;
+	margin-bottom:50px;
+	}
+	
+.geral button{
+	background-color:transparent;
+	border:0 none;
+	float:none;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top: auto;
+	
+	}
+	
+.entrada-dados::before{
+	position: absolute;
+	font-size: 30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
+	
+.botao{
+	padding: 15px 25px;
+	color: #fff;
+	background-color:#2c3e50;
+	border-radius:4px;
+	border:none;
+	}
+	
+.direita{
+	width: 200px;
+	height: 400px;
+	float:right;
+	background-color:rgba(62, 62, 62, 0.5);
+	text-align: center;
+	margin: 0 auto;
+	margin-top:100px;
+	margin-right:5px;
+	border-radius:6px;
+	}
+	
+.direita button{
+	color: #000;
+	background-color:#E8E8E8;
+	margin-bottom:20px;
+	border-color:#565656;
+	}
+	
+.esquerda{
+	width: 200px;
+	height: 400px;
+	float:left;
+	background-color:rgba(62, 62, 62, 0.5);
+	text-align: center;
+	margin: 0 auto;
+	margin-top:100px;
+	margin-left:5px;
+	border-radius:6px;
+	}
+	
+.tabela-controle img{
+	float:none;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top: auto;
+	height:60px;
+	width: 60px;
+}
+.tabela-controle td{
+	height:128px;
+	width:162px;
+	border:0;
+	margin:0 auto;
+	}
