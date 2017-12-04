@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source /opt/ros/kinetic/setup.bash
+
+rostopic pub -1 /goal geometry_msgs/PoseStamped '{header: { frame_id: "/world" }, pose: { position: { x: 3.3467, y: 0.75631, z: 0}, orientation: { x: 0, y: 0, z: -0.0347295, w: 0.9993}}}'
+
+
+
